@@ -11,6 +11,7 @@ body {
     justify-content:space-between;
     padding: 5px;
     align-items:center;
+    border-radius: 5px;
 }
 .header {
     box-shadow:0px 5px 15px slategray;
@@ -51,7 +52,9 @@ body {
     margin:0px 10px;
     box-shadow:5px 0px 10px slategray; 
     min-width:125px;
-    padding: 10px;
+    padding: 25px;
+    border-radius: 5px;
+
 }
 .sidebar, .corner {
     flex:1;
@@ -83,9 +86,11 @@ body {
     font-size: 25px;
     box-shadow:0px 5px 2px slategray;
     margin:10px 0px;
+    border-radius: 5px;
+
 }
 .title {
-    flex: 1;
+    flex: 0;
     width:100%;
     text-align: center;
     font-weight: bold;
